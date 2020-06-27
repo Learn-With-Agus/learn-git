@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const myName = "agus";
+    const strongName = <strong>Agus</strong>;
+    let numberA = 8;
+    let numberB = 80;
+    let hasil = numberA + numberB;
+    return (
+        <div class="learn-operation">
+            <h1>
+                Halo {myName} hari ini kita belajar menghitung {numberA} +{" "}
+                {numberB} = {hasil}{" "}
+            </h1>
+            <h1>
+                Halo {myName} hari ini kita belajar menghitung {numberA} +{" "}
+                {numberB} = {hasil}{" "}
+            </h1>
+            <h1>
+                Halo {myName} hari ini kita belajar menghitung {numberA} +{" "}
+                {numberB} = {hasil}{" "}
+            </h1>
+            <h1>
+                Halo {myName} hari ini kita belajar menghitung {numberA} +{" "}
+                {numberB} = {hasil}{" "}
+            </h1>
+            <h1>
+                Halo {myName} hari ini kita belajar menghitung {numberA} +{" "}
+                {numberB} = {hasil}{" "}
+            </h1>
+        </div>
+    );
 }
 
 export default App;
